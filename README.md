@@ -4,58 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Web Page</title>
-<style>
-  /* CSS Styles */
-  body {font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;}
-
-  h1, h2, h3 {
-    color: #333;
-  }
-
-  p {
-    color: #666;
-  }
-
-  .container {
-   max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .calculator {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-
-  .calculator button {
-    padding: 15px;
-    font-size: 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .calculator button:hover {
-    background-color: #45a049;
-  }
-
-  .result {
-    grid-column: span 4;
-    padding: 10px;
-    text-align: right;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+<title>My Web Page</title> <style> /* CSS Styles */ body {font-family: Arial, sans-serif; margin: 0;padding: 20px;}h1, h2, h3 {color: green;}p { color: purple; }
+container{ max-width: 800px; margin: 0 auto; background-color: blue;padding: 20px; border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0.1)}
+calculator {display: grid;grid-template-columns: repeat(4, 1fr); grid-gap: 10px;
+  } calculator button {padding: 15px; font-size: 20px; background-color: white;
+color: white; border: none; border-radius: 5px; cursor: pointer;} calculator button:hover {background-color: blue;}result{grid-column: span 4;
+padding: 10px; text-align: right; background-color: blue; border: 1px solid ;border-radius: 5px;}
 </style>
 </head>
 <body>
@@ -78,12 +33,10 @@
 
   <h2>Other Skills</h2>
   <p>Proficiency in Microsoft word <p>
-  
-     
+  <h2>Calculator</h2>
 <table class="calculator" >
     <tr>
       <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
-   
       <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
     </tr>
     <tr>
@@ -117,13 +70,13 @@
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br>
 
-    <label for="email">Email:</label><br>
+   <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br>
 
-    <label for="message">Message:</label><br>
+  <label for="message">Message:</label><br>
     <textarea id="message" name="message" required></textarea><br>
 
-    <label for="priority">Priority:</label><br>
+   <label for="priority">Priority:</label><br>
     <select id="priority" name="priority" required>
           <option value="" disabled selected>Select Priority</option>
       <option value="low">Low</option>
@@ -131,7 +84,7 @@
       <option value="high">High</option>
     </select><br>
 
-    <input type="submit" value="Submit">
+ <input type="submit" value="Submit">
   </form>
 </div>
 
