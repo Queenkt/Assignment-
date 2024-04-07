@@ -85,7 +85,6 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
 
  <input type="submit" value="Submit">
   </form>
-</div>
 <script>
 function validateForm() {
   var name = document.getElementById("name").value;
