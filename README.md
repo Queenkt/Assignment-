@@ -87,20 +87,15 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
  <input type="submit" value="Submit">
   </form>
 </div>
-
 <script>
 function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
   var priority = document.getElementById("priority").value;
-
   if (name == "" || email == "" || message == "" || priority == "") {
     alert("All fields must be filled out");
     return false;
   }
 }
 </script>
-
-</body>
-</html>
