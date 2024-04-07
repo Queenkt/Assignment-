@@ -29,7 +29,6 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
 
   <h2>Hobby</h2>
   <p>My hobbies are reading, sleeping, watching movies and playing board games<p>
-
   <h2>Other Skills</h2>
   <p>Proficiency in Microsoft word <p>
   <h2>Calculator</h2>
